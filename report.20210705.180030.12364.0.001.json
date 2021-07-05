@@ -1,0 +1,457 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20210705.180030.12364.0.001.json",
+    "dumpEventTime": "2021-07-05T18:00:30Z",
+    "dumpEventTimeStamp": "1625522430249",
+    "processId": 12364,
+    "cwd": "C:\\Users\\dablu\\school\\utsa-san-fsf-pt-04-2021-u-c\\10-OOP\\05-KirksHomework\\TeamProfileGenerator",
+    "commandLine": [
+      "C:/Program Files/nodejs/node.exe",
+      "index"
+    ],
+    "nodejsVersion": "v12.14.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.14.0",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.14.0/node-v12.14.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.14.0/node-v12.14.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.14.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.19042",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz",
+        "speed": 1498,
+        "user": 84234,
+        "nice": 0,
+        "sys": 82515,
+        "idle": 616421,
+        "irq": 6296
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz",
+        "speed": 1498,
+        "user": 111968,
+        "nice": 0,
+        "sys": 68312,
+        "idle": 602437,
+        "irq": 937
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz",
+        "speed": 1498,
+        "user": 124796,
+        "nice": 0,
+        "sys": 89906,
+        "idle": 568015,
+        "irq": 1515
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz",
+        "speed": 1498,
+        "user": 105171,
+        "nice": 0,
+        "sys": 72359,
+        "idle": 605187,
+        "irq": 750
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz",
+        "speed": 1498,
+        "user": 93109,
+        "nice": 0,
+        "sys": 58343,
+        "idle": 631250,
+        "irq": 1218
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz",
+        "speed": 1498,
+        "user": 80093,
+        "nice": 0,
+        "sys": 66500,
+        "idle": 636109,
+        "irq": 843
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz",
+        "speed": 1498,
+        "user": 94109,
+        "nice": 0,
+        "sys": 51171,
+        "idle": 637421,
+        "irq": 1000
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz",
+        "speed": 1498,
+        "user": 84890,
+        "nice": 0,
+        "sys": 34343,
+        "idle": 663453,
+        "irq": 562
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "c8:34:8e:20:f2:99",
+        "address": "fe80::3477:ccc4:41e4:5f55",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 22
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "c8:34:8e:20:f2:99",
+        "address": "192.168.1.42",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "vEthernet (Default Switch)",
+        "internal": false,
+        "mac": "00:15:5d:b9:9e:34",
+        "address": "fe80::c52e:f1b8:d9e9:eb02",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 17
+      },
+      {
+        "name": "vEthernet (Default Switch)",
+        "internal": false,
+        "mac": "00:15:5d:b9:9e:34",
+        "address": "172.27.80.1",
+        "netmask": "255.255.240.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "vEthernet (WSL)",
+        "internal": false,
+        "mac": "00:15:5d:ad:85:01",
+        "address": "fe80::dd09:ee6a:a192:6084",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 36
+      },
+      {
+        "name": "vEthernet (WSL)",
+        "internal": false,
+        "mac": "00:15:5d:ad:85:01",
+        "address": "172.17.144.1",
+        "netmask": "255.255.240.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "Coyote"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff6b9e11729",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10873"
+    },
+    {
+      "pc": "0x00007ff6b9e15b4c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28316"
+    },
+    {
+      "pc": "0x00007ff6b9e14b08",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24152"
+    },
+    {
+      "pc": "0x00007ff6b9f0369b",
+      "symbol": "v8::base::CPU::has_sse+37723"
+    },
+    {
+      "pc": "0x00007ff6ba7082de",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff6ba6f0321",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff6ba5bdbec",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff6ba5c8f90",
+      "symbol": "v8::internal::Heap::ProtectUnprotectedMemoryChunks+1312"
+    },
+    {
+      "pc": "0x00007ff6ba5c5ac4",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3204"
+    },
+    {
+      "pc": "0x00007ff6ba5bb353",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff6ba5b9b24",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2356"
+    },
+    {
+      "pc": "0x00007ff6ba5dadf5",
+      "symbol": "v8::internal::Factory::NewFillerObject+53"
+    },
+    {
+      "pc": "0x00007ff6ba346ca7",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+3687"
+    },
+    {
+      "pc": "0x00007ff6bab3404d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+567949"
+    },
+    {
+      "pc": "0x0000038d9e6ea9d5",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2193178624,
+    "totalCommittedMemory": 2193178624,
+    "usedMemory": 2031433816,
+    "availableMemory": 43667728,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 33554432,
+        "capacity": 16759808,
+        "used": 1643272,
+        "available": 15116536
+      },
+      "old_space": {
+        "memorySize": 1865527296,
+        "committedMemory": 1865527296,
+        "capacity": 1824782264,
+        "used": 1817857128,
+        "available": 6925136
+      },
+      "code_space": {
+        "memorySize": 950272,
+        "committedMemory": 950272,
+        "capacity": 656160,
+        "used": 656160,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 277876736,
+        "committedMemory": 277876736,
+        "capacity": 196299840,
+        "used": 196299840,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 14958592,
+        "committedMemory": 14958592,
+        "capacity": 14941568,
+        "used": 14941568,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 3552,
+        "used": 3552,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 16759808,
+        "used": 0,
+        "available": 16759808
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 104.796,
+    "kernelCpuSeconds": 7.093,
+    "cpuConsumptionPercent": 99.9009,
+    "maxRss": 2288115712,
+    "pageFaults": {
+      "IORequired": 767646,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 634,
+      "writes": 6
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "ACLOCAL_PATH": "/mingw64/share/aclocal:/usr/share/aclocal",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\dablu\\AppData\\Roaming",
+    "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "COYOTE",
+    "COMSPEC": "C:\\WINDOWS\\system32\\cmd.exe",
+    "CONFIG_SITE": "/etc/config.site",
+    "DISPLAY": "needs-to-be-defined",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "EXEPATH": "C:\\Program Files\\Git",
+    "HOME": "C:\\Users\\dablu",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\dablu",
+    "HOSTNAME": "Coyote",
+    "INFOPATH": "/usr/local/info:/usr/share/info:/usr/info:/share/info",
+    "LC_CTYPE": "en_US.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\dablu\\AppData\\Local",
+    "LOGONSERVER": "\\\\COYOTE",
+    "MANPATH": "/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man",
+    "MINGW_CHOST": "x86_64-w64-mingw32",
+    "MINGW_PACKAGE_PREFIX": "mingw-w64-x86_64",
+    "MINGW_PREFIX": "/mingw64",
+    "MSYSTEM": "MINGW64",
+    "MSYSTEM_CARCH": "x86_64",
+    "MSYSTEM_CHOST": "x86_64-w64-mingw32",
+    "MSYSTEM_PREFIX": "/mingw64",
+    "NUMBER_OF_PROCESSORS": "8",
+    "OneDrive": "C:\\Users\\dablu\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\dablu\\OneDrive",
+    "ORIGINAL_PATH": "C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\dablu\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn;C:\\Program Files\\nodejs;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn;C:\\Users\\dablu\\OneDrive\\Upwork\\resumes\\pdf2htmlEX;C:\\Program Files\\dotnet;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files (x86)\\dotnet;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\dablu\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\dablu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\dablu\\AppData\\Roaming\\npm;C:\\Users\\dablu\\OneDrive\\Upwork\\resumes\\pdf2htmllEX;C:\\Users\\dablu\\.dotnet\\tools;C:\\Program Files (x86)\\Rico Suter\\NSwagStudio;C:\\Program Files\\Azure Data Studio\\bin;C:\\Users\\dablu\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\dablu\\.dotnet\\tools",
+    "ORIGINAL_TEMP": "/tmp",
+    "ORIGINAL_TMP": "/tmp",
+    "OS": "Windows_NT",
+    "PATH": "C:\\Users\\dablu\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\dablu\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn;C:\\Program Files\\nodejs;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn;C:\\Users\\dablu\\OneDrive\\Upwork\\resumes\\pdf2htmlEX;C:\\Program Files\\dotnet;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files (x86)\\dotnet;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\dablu\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\dablu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\dablu\\AppData\\Roaming\\npm;C:\\Users\\dablu\\OneDrive\\Upwork\\resumes\\pdf2htmllEX;C:\\Users\\dablu\\.dotnet\\tools;C:\\Program Files (x86)\\Rico Suter\\NSwagStudio;C:\\Program Files\\Azure Data Studio\\bin;C:\\Users\\dablu\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\dablu\\.dotnet\\tools;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+    "PKG_CONFIG_PATH": "/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig",
+    "PLINK_PROTOCOL": "ssh",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 126 Stepping 5, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "7e05",
+    "ProgramData": "C:\\ProgramData",
+    "PROGRAMFILES": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PS1": "\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ ",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "PWD": "/c/Users/dablu/school/utsa-san-fsf-pt-04-2021-u-c/10-OOP/05-KirksHomework/TeamProfileGenerator",
+    "SESSIONNAME": "Console",
+    "SHELL": "C:\\Program Files\\Git\\usr\\bin\\bash.exe",
+    "SHLVL": "1",
+    "SSH_ASKPASS": "/mingw64/libexec/git-core/git-gui--askpass",
+    "SYSTEMDRIVE": "C:",
+    "SYSTEMROOT": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\dablu\\AppData\\Local\\Temp",
+    "TERM_PROGRAM": "mintty",
+    "TERM_PROGRAM_VERSION": "3.4.7",
+    "TMP": "C:\\Users\\dablu\\AppData\\Local\\Temp",
+    "TMPDIR": "C:\\Users\\dablu\\AppData\\Local\\Temp",
+    "USERDOMAIN": "COYOTE",
+    "USERDOMAIN_ROAMINGPROFILE": "COYOTE",
+    "USERNAME": "dablu",
+    "USERPROFILE": "C:\\Users\\dablu",
+    "VBOX_MSI_INSTALL_PATH": "C:\\Program Files\\Oracle\\VirtualBox\\",
+    "WINDIR": "C:\\WINDOWS",
+    "_": "/usr/bin/winpty"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\powrprof.dll",
+    "C:\\WINDOWS\\SYSTEM32\\UMPDC.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\bcryptprimitives.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll"
+  ]
+}
