@@ -59,9 +59,16 @@ const employeeMenu =    {
     choices: ['Engineer', 'Intern', 'Exit'],
 };
 
+const toBeContinued =    {
+    type: 'list',
+    message: 'Add another team member?',
+    name: 'willContinue',
+    choices: ['Yes', 'No'],
+};
 module.exports = {
     mgrQuestions,
     engQuestions,
     intQuestions,
-    employeeMenu
+    employeeMenu,
+    toBeContinued
 }
