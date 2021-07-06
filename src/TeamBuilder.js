@@ -1,4 +1,4 @@
-const startQuestions = [
+const mgrQuestions = [
     {
         type: 'input',
         message: 'Enter the team manager\'s name.',
@@ -14,13 +14,6 @@ const startQuestions = [
         message: 'Enter the team manager\'s office number.',
         name: 'mgrOffice',
     },
-    {
-        type: 'list',
-        message: 'Provide the name of an engineer or an intern.',
-        name: 'empMenu',
-        choices: ['Engineer', 'Intern', ''],
-    },
-
 ];
 
 const engQuestions = [
@@ -38,12 +31,6 @@ const engQuestions = [
         type: 'input',
         message: 'Enter the engineer\'s github user name.',
         name: 'engGhUsername',
-    },
-    {
-        type: 'list',
-        message: 'Provide the name of an engineer or an intern.',
-        name: 'empMenu',
-        choices: ['Engineer', 'Intern', ''],
     },
 ];
 
@@ -63,16 +50,18 @@ const intQuestions = [
         message: 'Enter the intern\'s school.',
         name: 'intSchool',
     },
-    {
-        type: 'list',
-        message: 'Provide the name of an engineer or an intern.',
-        name: 'empMenu',
-        choices: ['Engineer', 'Intern', ''],
-    },
 ];
 
+const employeeMenu =    {
+    type: 'list',
+    message: 'Provide the name of an engineer or an intern.',
+    name: 'empMenu',
+    choices: ['Engineer', 'Intern', 'Exit'],
+};
+
 module.exports = {
-    startQuestions,
+    mgrQuestions,
     engQuestions,
-    intQuestions
+    intQuestions,
+    employeeMenu
 }

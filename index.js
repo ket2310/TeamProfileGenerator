@@ -10,29 +10,37 @@ var intern;
 var selection;
 
 function init() {
-    inquirer.prompt(teamBuilder.startQuestions).then((answers) => {
+    inquirer.prompt(teamBuilder.mgrQuestions).then((answers) => {
         createManager(answers);
-        selection = answers.empMenu;
-        //while (selection != '') {
-            switch (answers.empMenu) {
+        selectFromMenu();        
+    });
+}
+init();
+
+function selectFromMenu() {
+    inquirer.prompt(teamBuilder.employeeMenu).then((data) => {
+        selection = data.empMenu;
+        while (selection != 'Exit') {
+            switch (selection) {
                 case 'Engineer':
                     inquirer.prompt(teamBuilder.engQuestions)
                         .then((answers) => {
                             createEngineer(answers);
                         });
+                    //selectFromMenu();
                     break;
                 case 'Intern':
                     inquirer.prompt(teamBuilder.intQuestions)
-                    .then((answers) => {
-                        createIntern(answers);
-                    });
+                        .then((answers) => {
+                            createIntern(answers);
+                        });
+                    //selectFromMenu();
                     break;
             }
-        //}
-    });
-};
 
-init();
+        }
+    });
+}
 
 function createManager(data) {
     manager = new Manager(data.mgrName, data.mgrEmail, data.mgrOffice);
