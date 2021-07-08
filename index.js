@@ -29,19 +29,17 @@ function selectFromMenu() {
                     .then((answers) => {
                         createEngineer(answers);
                     })
-                //selectFromMenu();
                 break;
             case 'Intern':
                 inquirer.prompt(teamBuilder.intQuestions)
                     .then((answers) => {
                         createIntern(answers);
                     });
-                //selectFromMenu();
                 break;
             case 'Exit':
+                teamPage.addBottom();
                 break;
         }
-        //   teamPage.addBottom();
     });
 }
 
